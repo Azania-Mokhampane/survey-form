@@ -11,5 +11,161 @@
   </head>
   <body>
     <p id="description">Fill in the form to purchase your Nikey Shoe</p>
+    <form id="survey-form">
+      <div class="input-headings">
+        <label for="name" id="name-label"> Name </label>
+        <br />
+        <input
+          class="blank-space"
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Azania Mokhampane"
+          required
+        />
+        <br />
+
+        <label for="email" id="email-label"> E-mail </label>
+        <br />
+        <input
+          class="blank-space"
+          id="email"
+          type="email"
+          name="email"
+          placeholder="azaniam04@gmail.com"
+          required
+        />
+        <br />
+
+        <label for="number" id="number-label"> Size </label>
+        <br />
+        <input
+          class="blank-space"
+          id="number"
+          type="number"
+          name="number"
+          min="1"
+          max="10"
+          placeholder="10"
+          required
+        />
+        <br />
+
+        <label for="dropdown">Select Shoes </label>
+        <br />
+        <select class="blank-space" id="dropdown">
+          <option value="Nike Air Force 1's">Nike Air Force 1</option>
+          <option value="Nike Air Max">Nike Air Max</option>
+          <option value="Nike Blazer">Nike Blazer</option>
+          <option value="Nike Air Zoom">Nike Air Zoom</option>
+          <option value="Nike Air VaporMax">Nike Air VaporMax</option>
+          <option value="Nike Air Streak">Nike Air Streak</option>
+        </select>
+        <br />
+        <label for="shoe-color" id="shoe-color"> <b> Shoe Color </b></label>
+        <br />
+
+        <input
+          id="shoe-color"
+          type="radio"
+          id="black"
+          name="color"
+          value="black"
+        />
+        <label for="shoe-color"> Black </label>
+        <br />
+
+        <input
+          id="shoe-color"
+          type="radio"
+          id="white"
+          name="color"
+          value="white"
+        />
+        <label for="shoe-color"> White </label>
+        <br />
+
+        <input id="shoe-color" type="radio" id="red" name="color" value="red" />
+        <label for="shoe-color"> Red </label>
+        <br />
+
+        <input
+          id="shoe-color"
+          type="radio"
+          id="blue"
+          name="color"
+          value="blue"
+        />
+        <label for="shoe-color"> Blue </label>
+        <br />
+
+        <input
+          id="shoe-color"
+          type="radio"
+          id="pink"
+          name="color"
+          value="pink"
+        />
+        <label for="shoe-color"> Pink </label>
+        <br />
+
+        <label for="add-product"> Add A Nikey Product:</label>
+        <br />
+
+        <input
+          id="checkbox"
+          type="checkbox"
+          name="add-product"
+          value="nike-tshirt"
+        />
+        <label for="checkbox">Nike T-shirt</label>
+        <br />
+
+        <input
+          id="checkbox"
+          type="checkbox"
+          name="add-product"
+          value="nike-socks"
+        />
+        <label for="checkbox">Nike Socks</label>
+        <br />
+
+        <input
+          id="checkbox"
+          type="checkbox"
+          name="add-product"
+          value="nike-hoody"
+        />
+        <label for="checkbox">Nike Hoddy</label>
+        <br />
+
+        <input
+          id="checkbox"
+          type="checkbox"
+          name="add-product"
+          value="nike-cap"
+        />
+        <label for="checkbox">Nike Cap</label>
+        <br />
+
+        <label for="textarea">Additional Products</label>
+        <br />
+        <textarea
+          id="textarea"
+          name="instructions"
+          rows="6"
+          cols="40"
+          placeholder="Aditional Comments..."
+        ></textarea>
+        <br />
+
+        <input
+          id="submit"
+          type="submit"
+          value="Place Order"
+          class="submit-button"
+        />
+      </div>
+    </form>
   </body>
 </html>
