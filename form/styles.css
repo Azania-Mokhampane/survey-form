@@ -1,1 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Play&family=Ropa+Sans&display=swap");
+
+body {
+  font-family: "Ropa Sans", sans-serif;
+  line-height: 2;
+  background-color: #d7dcdd;
+  width: 50%;
+  margin: auto;
+}
+
+#title {
+  font-family: "Play", sans-serif;
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+form {
+  margin: auto;
+  width: auto;
+}
