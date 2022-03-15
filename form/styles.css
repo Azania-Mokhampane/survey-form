@@ -19,3 +19,21 @@ form {
   margin: auto;
   width: auto;
 }
+.input-headings {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: auto;
+  text-align: center;
+  width: auto;
+}
+label {
+  color: black;
+  font-size: 130%;
+}
+.blank-space {
+  width: 60%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
